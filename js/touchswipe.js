@@ -7,7 +7,7 @@ jQuery(document).bind('cbox_open', function(){
     swipeRight:function(event, direction, distance, duration, fingerCount) {
       jQuery.colorbox.next();
     },
-    //Default is 75px, set to 0 for demo so any distance triggers swipe
-    threshold:0
+    //The number of pixels that the user must move their finger by before it is considered a swipe. Default is 75px :
+    threshold:75
   });
 });
